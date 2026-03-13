@@ -15,7 +15,7 @@ This repository aggregates projects, skills, and tutorials that bring OpenClaw i
 
 | | | |
 |---|---|---|
-| [Single Board Computers](#single-board-computers) | [Microcontrollers](#microcontrollers) | [Voice \& Audio](#voice--audio) |
+| [Single Board Computers](#single-board-computers) | [Microcontrollers](#microcontrollers) | [Local LLM](#local-llm) | [Voice \& Audio](#voice--audio) |
 | [Vision \& Cameras](#vision--cameras) | [Home Automation \& IoT](#home-automation--iot) | [Robotics](#robotics) |
 | [Displays \& HMI](#displays--hmi) | [Wireless Communication](#wireless-communication) | |
 
@@ -26,34 +26,37 @@ This repository aggregates projects, skills, and tutorials that bring OpenClaw i
 
 Running OpenClaw natively on single-board computers.
 
-- [OpenClaw on Raspberry Pi](https://docs.openclaw.ai/raspberry-pi) - Official guide to running OpenClaw on RPi 4/5.
-- [Raspberry Pi AI Agent Host](https://forums.raspberrypi.com/viewtopic.php?t=390769) - Fully agentic, self-hosted Docker-based development environment.
-- [OpenClaw on Home Assistant](https://community.home-assistant.io/t/openclaw-clawdbot-on-home-assistant/981467) - Community guide for HA integration.
-- [reComputer 一键部署/卸载 OpenClaw](https://github.com/baorepo/ee-datasheet-master) - One-click deploy/uninstall scripts for Seeed reComputer series.
+- [nanobot](https://github.com/baorepo/nanobot) - Lightweight agent for SBCs.
+- [Seeed's SBC Benchmark for OpenClaw](01-single-board-computers/seeed-sbc-benchmark-en.md) - A comprehensive benchmark of Seeed's single-board computers running OpenClaw, including performance metrics and hardware recommendations.
+
 </details>
 
 <details open>
 <summary><h3 style="display:inline">Microcontrollers</h3></summary>
 
-Lightweight embedded implementations for MCU platforms.
+Lightweight embedded implementations for MCU platforms, and hardware boards proved to run OpenClaw or agent-like workloads.
 
-- [MimiClaw](https://github.com/memovai/mimiclaw) - OpenClaw on ESP32-S3 — $5 hardware, pure C, no OS.
-- [MimiClaw on XIAO S3](https://github.com/memovai/mimiclaw) - MimiClaw ported to Seeed Studio XIAO ESP32S3.
-- [PicoClaw](https://github.com/sipeed/picoclaw) - RISC-V implementation, 10MB RAM, $10 board.
-- [espclaw](https://github.com/baorepo/espclaw) - ESP32-based OpenClaw implementation with control demos.
-- [nanobot](https://github.com/baorepo/nanobot) - Lightweight agent for embedded devices.
+- [mimiclaw](https://github.com/memovai/mimiclaw) - OpenClaw on ESP32-S3 — $5 hardware, pure C, no OS.
+- [espclaw](todo) - ESP32-based OpenClaw implementation with MQTT channel and more native tools. @wangtianrui
+- [mimiclaw on XIAO ESP32-S3](todo) - mimiclaw ported to Seeed Studio XIAO ESP32S3.
+</details>
+
+<details open>
+<summary><h3 style="display:inline">Local LLM</h3></summary>
+
+OpenClaw driven by local LLM backends on edge devices.
+
+- [nanobot + reComputer RK + Local LLM](todo) - todo. @jiahao
+
+
 </details>
 
 <details open>
 <summary><h3 style="display:inline">Voice & Audio</h3></summary>
 
-TTS, STT, microphones, and speaker systems for spoken interaction.
+Add voice input/output capabilities to OpenClaw agents.
 
-- [MimiClaw x reSpeaker](https://github.com/memovai/mimiclaw) - Voice-enabled AI assistant with reSpeaker (XVF3800) + ESP32S3.
-- [OpenClaw Voice](https://openclawvoice.com/) - Browser-based voice chat with Whisper STT + ElevenLabs TTS.
-- [Voice Call Plugin](https://docs.openclaw.ai/plugins/voice-call) - Twilio/Telnyx telephony integration.
-- [ESP32 Voice Assistant](https://github.com/arpy8/ESP32_Voice_Assistant) - End-to-end conversational AI on ESP32.
-- [ESP32 Agent Dev Kit](https://www.cnx-software.com/2025/01/24/esp32-agent-dev-kit-is-an-llm-powered-voice-assistant-built-on-the-esp32-s3/) - LLM-powered voice assistant on ESP32-S3.
+- [MimiClaw x reSpeaker](todo) - Voice-enabled AI assistant with reSpeaker (XVF3800) + ESP32S3.
 </details>
 
 <details open>
@@ -61,24 +64,19 @@ TTS, STT, microphones, and speaker systems for spoken interaction.
 
 Computer vision, AI cameras, and visual perception systems.
 
-- [reCamera Intellisense](https://github.com/SeeedStudio/reCamera) - Agent-friendly CLI/SDK for camera hardware with multi-camera support.
-- [reCamera V2](https://github.com/SeeedStudio/reCamera) - Next-gen AI camera with scene understanding.
-- [reCamera Gimbal](https://github.com/SeeedStudio/reCamera) - PTZ camera with gimbal control.
-- [SenseCraft Watcher](https://github.com/SeeedStudio/SenseCraft-Watcher) - Protocol bridge for Seeed Watcher hardware.
-- [VisionClaw](https://github.com/sseanliu/VisionClaw) - Meta Ray-Bans + Gemini Live + OpenClaw integration.
-- [Hailo AI HAT](https://github.com/hailocom/hailo-ai-hat) - Raspberry Pi AI accelerator for local inference.
-- [OpenClaw on Raspberry Pi with Hailo](https://www.hackster.io/psmooij/openclaw-for-robot-programming-pmsg-on-budget-d76a91) - Pi 5 + Hailo for local AI agents.
+- [reCamera Intellisense](todo) - Agent-friendly CLI/SDK for reCamera v2 with multi-camera support.
+- [openclaw with reCamera Gimbal](todo) - todo. @wuxinrui
+- [openclaw with SenseCap Watcher](todo) - todo. @jerry
+- [Control reCamera v2 with OpenClaw](todo) - todo. @daqing
 </details>
 
 <details open>
 <summary><h3 style="display:inline">Home Automation & IoT</h3></summary>
 
-Home Assistant, smart home protocols, and IoT device integrations.
+OpenClaw interact with smart home protocols, and IoT devices.
 
-- [OpenClaw Home Assistant Add-on](https://github.com/techartdev/OpenClawHomeAssistant) - Native HA integration.
-- [nanobot + reComputer RK + Local LLM](https://github.com/baorepo/nanobot) - Controlling IoT devices with local models.
-- [SwitchBot Integration](https://openclaws.io/blog/openclaw-smart-home-iot) - Smart home control via SwitchBot.
-- [DIY Home Assistant with RPi 5 + Ollama](https://www.reddit.com/r/LocalLLM/comments/1r84jou/diy_home_assistant_with_rpi_5_openclaw_ollama/) - Community guide for local AI home automation.
+- [nanobot + reComputer RK + Local LLM](todo) - todo @jiahao
+
 </details>
 
 <details open>
@@ -86,9 +84,9 @@ Home Assistant, smart home protocols, and IoT device integrations.
 
 Motor control, robot arms, and physical agent systems.
 
-- [soarm-control](https://github.com/baorepo/soarm-control) - OpenClaw controlling SOArm 101 robotic arm with Nvidia Jetson.
-- [Reachy Mini](https://github.com/pollen-robotics/reachy_ros) - Deploying OpenClaw on Reachy Mini humanoid robot.
-- [OpenClaw for Robot Programming](https://www.hackster.io/psmooij/openclaw-for-robot-programming-pmsg-on-budget-d76a91) - Budget robot programming with Pi 5 + Hailo.
+- [Control SOArm 101 with OpenClaw](todo) - OpenClaw controlling SOArm 101 robotic arm with Nvidia Jetson.
+- [Reachy Mini](todo) - todo. @suhe
+
 </details>
 
 <details open>
@@ -96,18 +94,17 @@ Motor control, robot arms, and physical agent systems.
 
 E-ink screens, LCD displays, and HMI devices.
 
-- [SenseCraft HMI](https://github.com/SeeedStudio/SenseCraft-HMI) - Web content generator for e-ink displays.
-- [OpenClaw 与墨水屏](https://github.com/baorepo/awesome-openclaw-hardware-projects) - Integrating OpenClaw with e-ink screens.
-- [ESP32 Display Projects](https://www.xda-developers.com/cheap-esp32-display-projects-anyone-build/) - Cheap ESP32-based display projects.
+- [OpenClaw with e-ink Displays](todo) - Give e-ink displays the most powerful content generation engine - OpenClaw.
+
 </details>
 
 <details open>
 <summary><h3 style="display:inline">Wireless Communication</h3></summary>
 
-LoRa, mesh networks, and off-grid communication protocols.
+OpenClaw communication with the physical world through wireless protocols.
 
-- [MeshClaw](https://github.com/baorepo/meshclaw) - Meshtastic integration for off-grid AI communication.
-- [Meshtastic](https://meshtastic.org/) - Open-source mesh networking protocol for long-range communication.
+- [MeshClaw](todo) - Meshtastic integration for off-grid AI communication.
+
 </details>
 
 ---
@@ -119,7 +116,7 @@ Contributions welcome! Please read our [contributing guidelines](./CONTRIBUTING.
 - Add only projects you've verified work
 - Include clear descriptions
 - Categorize appropriately
-- Link to official docs when available
+- Link to official docs/github repository when available
 
 ---
 
