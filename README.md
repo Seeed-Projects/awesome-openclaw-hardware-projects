@@ -1,7 +1,10 @@
-# awesome-openclaw-hardware-projects
+
+<img width="1000" height="329" alt="awesome-openclaw-hardware-projects" src="https://github.com/user-attachments/assets/c54b5aa8-1fe6-4d56-98c2-b978f77ff558" />
 
 [![awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@main/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey?style=flat&style=flat)](LICENSE)
+
+# Awesome OpenClaw Hardware Projects
 
 > A community collection of OpenClaw hardware projects — enabling AI agents to interact with the physical world.
 
