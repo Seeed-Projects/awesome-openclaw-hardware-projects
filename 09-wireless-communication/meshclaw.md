@@ -2,6 +2,7 @@
 
 > Meshtastic integration for off-grid AI communication.
 
-- **Status:** Placeholder
-
+- **Status:** Linked
+- **Linked Project:** [MeshClaw](https://github.com/Seeed-Solution/MeshClaw)
+- 
 <!-- Add content here -->
