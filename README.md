@@ -125,7 +125,7 @@ OpenClaw communication with the physical world through wireless protocols.
 
 | Project Name | Related Hardware | Description |
 |---|---|---|
-| [MeshClaw](09-wireless-communication/meshclaw.md) | • [SenseCAP Card Tracker T1000](https://wiki.seeedstudio.com/SenseCAP_T1000_tracker/Introduction/) | Meshtastic integration for off-grid AI communication. |
+| [MeshClaw](https://github.com/Seeed-Solution/MeshClaw) | • [SenseCAP Card Tracker T1000](https://wiki.seeedstudio.com/SenseCAP_T1000_tracker/Introduction/) | Meshtastic integration for off-grid AI communication. |
 
 </details>
 
