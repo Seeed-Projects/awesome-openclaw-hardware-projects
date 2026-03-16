@@ -1,4 +1,3 @@
-
 <img width="1000" height="329" alt="awesome-openclaw-hardware-projects" src="https://github.com/user-attachments/assets/c54b5aa8-1fe6-4d56-98c2-b978f77ff558" />
 
 [![awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@main/media/badge.svg)](https://github.com/sindresorhus/awesome)
@@ -29,8 +28,10 @@ This repository aggregates projects, skills, and tutorials that bring OpenClaw i
 
 Running OpenClaw natively on single-board computers.
 
-- [nanobot](https://github.com/HKUDS/nanobot) - ultra-lightweight personal AI assistant inspired by OpenClaw.
-- [Seeed's SBC Benchmark for OpenClaw](01-single-board-computers/seeed-sbc-benchmark-en.md) - A comprehensive benchmark of Seeed's single-board computers running OpenClaw, including performance metrics and hardware recommendations.
+| Project Name | Related Hardware | Description |
+|---|---|---|
+| [nanobot](https://github.com/HKUDS/nanobot) | — | Ultra-lightweight personal AI assistant inspired by OpenClaw. |
+| [Seeed's SBC Benchmark for OpenClaw](01-single-board-computers/seeed-sbc-benchmark-en.md) | • [reComputer R Series](https://wiki.seeedstudio.com/recomputer_r/)<br>• [reComputer J Series](https://wiki.seeedstudio.com/reComputer_Jetson_Series_Introduction/) | A comprehensive benchmark of Seeed's single-board computers running OpenClaw, including performance metrics and hardware recommendations. |
 
 </details>
 
@@ -39,9 +40,12 @@ Running OpenClaw natively on single-board computers.
 
 Lightweight embedded implementations for MCU platforms, and hardware boards proved to run OpenClaw or agent-like workloads.
 
-- [mimiclaw](https://github.com/memovai/mimiclaw) - Pocket AI Assistant on a $5 Chip.
-- [espclaw](02-microcontrollers/espclaw.md) - ESP32-based OpenClaw implementation with MQTT channel and more native tools. @wangtianrui
-- [mimiclaw on XIAO ESP32-S3](02-microcontrollers/mimiclaw-on-xiao-esp32s3.md) - mimiclaw ported to Seeed Studio XIAO ESP32S3.
+| Project Name | Related Hardware | Description |
+|---|---|---|
+| [mimiclaw](https://github.com/memovai/mimiclaw) | • [XIAO ESP32S3](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) | Pocket AI Assistant on a $5 Chip. |
+| [espclaw](02-microcontrollers/espclaw.md) | • [XIAO ESP32C3](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/)<br>• [XIAO ESP32S3](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) | ESP32-based OpenClaw implementation with MQTT channel and more native tools. @wangtianrui |
+| [mimiclaw on XIAO ESP32-S3](02-microcontrollers/mimiclaw-on-xiao-esp32s3.md) | • [XIAO ESP32S3](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) | mimiclaw ported to Seeed Studio XIAO ESP32S3. |
+
 </details>
 
 <details open>
@@ -49,8 +53,9 @@ Lightweight embedded implementations for MCU platforms, and hardware boards prov
 
 OpenClaw driven by local LLM backends on edge devices.
 
-- [nanobot + reComputer RK + Local LLM](03-local-llm/nanobot-recomputer-rk-local-llm.md) - todo. @jiahao
-
+| Project Name | Related Hardware | Description |
+|---|---|---|
+| [nanobot + reComputer RK + Local LLM](03-local-llm/nanobot-recomputer-rk-local-llm.md) | • [reComputer R1000](https://wiki.seeedstudio.com/reComputer_r1000_intro/) | todo. @jiahao |
 
 </details>
 
@@ -59,7 +64,10 @@ OpenClaw driven by local LLM backends on edge devices.
 
 Add voice input/output capabilities to OpenClaw agents.
 
-- [MimiClaw x reSpeaker](04-voice-audio/mimiclaw-x-respeaker.md) - Voice-enabled AI assistant with reSpeaker (XVF3800) + ESP32S3.
+| Project Name | Related Hardware | Description |
+|---|---|---|
+| [MimiClaw x reSpeaker](04-voice-audio/mimiclaw-x-respeaker.md) | • [reSpeaker Mic Array v2.0](https://wiki.seeedstudio.com/ReSpeaker_Mic_Array_v2.0/)<br>• [XIAO ESP32S3](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) | Voice-enabled AI assistant with reSpeaker (XVF3800) + ESP32S3. |
+
 </details>
 
 <details open>
@@ -67,10 +75,13 @@ Add voice input/output capabilities to OpenClaw agents.
 
 Computer vision, AI cameras, and visual perception systems.
 
-- [reCamera Intellisense](05-vision-cameras/recamera-intellisense.md) - Agent-friendly CLI/SDK for reCamera v2 with multi-camera support.
-- [openclaw with reCamera Gimbal](05-vision-cameras/openclaw-recamera-gimbal.md) - todo. @wuxinrui
-- [openclaw with SenseCap Watcher](05-vision-cameras/openclaw-sensecap-watcher.md) - todo. @jerry
-- [Control reCamera v2 with OpenClaw](05-vision-cameras/control-recamera-v2.md) - todo. @daqing
+| Project Name | Related Hardware | Description |
+|---|---|---|
+| [reCamera Intellisense](05-vision-cameras/recamera-intellisense.md) | • [reCamera](https://wiki.seeedstudio.com/recamera_getting_started/) | Agent-friendly CLI/SDK for reCamera v2 with multi-camera support. |
+| [openclaw with reCamera Gimbal](05-vision-cameras/openclaw-recamera-gimbal.md) | • [reCamera Gimbal](https://wiki.seeedstudio.com/recamera_gimbal_getting_started/) | todo. @wuxinrui |
+| [openclaw with SenseCap Watcher](05-vision-cameras/openclaw-sensecap-watcher.md) | • [SenseCAP Watcher](https://wiki.seeedstudio.com/getting_started_with_watcher/) | todo. @jerry |
+| [Control reCamera v2 with OpenClaw](05-vision-cameras/control-recamera-v2.md) | • [reCamera](https://wiki.seeedstudio.com/recamera_getting_started/) | todo. @daqing |
+
 </details>
 
 <details open>
@@ -78,7 +89,9 @@ Computer vision, AI cameras, and visual perception systems.
 
 OpenClaw interact with smart home protocols, and IoT devices.
 
-- [nanobot + reComputer RK + Local LLM](06-home-automation-iot/nanobot-recomputer-rk-iot.md) - todo @jiahao
+| Project Name | Related Hardware | Description |
+|---|---|---|
+| [nanobot + reComputer RK + IoT](06-home-automation-iot/nanobot-recomputer-rk-iot.md) | • [reComputer R Series](https://wiki.seeedstudio.com/recomputer_r/) | todo @jiahao |
 
 </details>
 
@@ -87,8 +100,10 @@ OpenClaw interact with smart home protocols, and IoT devices.
 
 Motor control, robot arms, and physical agent systems.
 
-- [Control SOArm 101 with OpenClaw](07-robotics/control-soarm101.md) - OpenClaw controlling SOArm 101 robotic arm with Nvidia Jetson.
-- [Reachy Mini](07-robotics/reachy-mini.md) - todo. @suhe
+| Project Name | Related Hardware | Description |
+|---|---|---|
+| [Control SOArm 101 with OpenClaw](07-robotics/control-soarm101.md) | • [SO-ARM101](https://wiki.seeedstudio.com/lerobot_so100m_new/)<br>• [reComputer J Series (Jetson)](https://wiki.seeedstudio.com/reComputer_Jetson_Series_Introduction/) | OpenClaw controlling SOArm 101 robotic arm with Nvidia Jetson. |
+| [Reachy Mini](07-robotics/reachy-mini.md) | — | todo. @suhe |
 
 </details>
 
@@ -97,7 +112,9 @@ Motor control, robot arms, and physical agent systems.
 
 E-ink screens, LCD displays, and HMI devices.
 
-- [OpenClaw with e-ink Displays](08-displays-hmi/openclaw-eink-displays.md) - Give e-ink displays the most powerful content generation engine - OpenClaw.
+| Project Name | Related Hardware | Description |
+|---|---|---|
+| [OpenClaw with e-ink Displays](08-displays-hmi/openclaw-eink-displays.md) | • [SenseCAP Indicator](https://wiki.seeedstudio.com/Sensor/SenseCAP/SenseCAP_Indicator/Get_started_with_SenseCAP_Indicator/)<br>• [reTerminal DM](https://wiki.seeedstudio.com/reterminal-dm/) | Give e-ink displays the most powerful content generation engine - OpenClaw. |
 
 </details>
 
@@ -106,7 +123,9 @@ E-ink screens, LCD displays, and HMI devices.
 
 OpenClaw communication with the physical world through wireless protocols.
 
-- [MeshClaw](09-wireless-communication/meshclaw.md) - Meshtastic integration for off-grid AI communication.
+| Project Name | Related Hardware | Description |
+|---|---|---|
+| [MeshClaw](09-wireless-communication/meshclaw.md) | • [SenseCAP Card Tracker T1000](https://wiki.seeedstudio.com/SenseCAP_T1000_tracker/Introduction/) | Meshtastic integration for off-grid AI communication. |
 
 </details>
 
