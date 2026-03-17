@@ -1,6 +1,10 @@
 # reCamera Intellisense
 
-AI-powered monitoring and control skill for reCamera (v2) — manage devices, configure object detection, capture images/video, and stream events, all with the tiny stdlib-only reCamera Python SDK integrated.
+AI-powered monitoring and control skill for reCamera V2 — manage devices, configure object detection, capture images/video, and stream events, all with the tiny stdlib-only reCamera Python SDK integrated.
+
+## Demo
+
+- Bridging Edge AI and LLMs with the upcoming reCamera V2: [X](https://x.com/seeedstudio/status/2033482303549194699) / [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7439246087489581056).
 
 ## Features
 
@@ -14,7 +18,7 @@ For detailed API signatures and CLI schemas, see [API Reference](skills/recamera
 
 ## Installation
 
-**Note: requires an unreleased reCamera (v2) hardware with an experimental firmware, stay tuned for the public release!**
+**Note: requires an unreleased reCamera V2 hardware with an experimental firmware, stay tuned for the public release!**
 
 ### Option A — ClawHub (recommended)
 
