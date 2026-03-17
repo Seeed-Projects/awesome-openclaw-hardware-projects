@@ -66,7 +66,7 @@ Add voice input/output capabilities to OpenClaw agents.
 
 | Project Name | Related Hardware | Description |
 |---|---|---|
-| [reSpeaker-claw](04-voice-audio/reSpeaker-claw.md) | • [reSpeaker XVF3800](https://wiki.seeedstudio.com/respeaker_xvf3800_introduction/)<br>• [XIAO ESP32S3](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) | Voice-first AI agent on ESP32-S3 with local VAD, pluggable STT/TTS,multi-channel messaging, and persistent memory. |
+| [reSpeaker-claw](04-voice-audio/respeaker-claw.md) | • [reSpeaker XVF3800](https://wiki.seeedstudio.com/respeaker_xvf3800_introduction/)<br>• [XIAO ESP32S3](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) | Voice-first AI agent on ESP32-S3 with local VAD, pluggable STT/TTS,multi-channel messaging, and persistent memory. |
 | [reSpeaker + OpenClaw Lark Meeting Card Push](04-voice-audio/respeaker-openclaw-lark-card-push.md) | • [reSpeaker XVF3800](https://wiki.seeedstudio.com/respeaker_xvf3800_introduction/) | Voice-input and skill-development tutorial for sending smart location and interactive meeting cards to Lark/Feishu groups with OpenClaw. |
 | [openclaw with SenseCAP Watcher](https://github.com/luoluoter/watcher-OI) | • [SenseCAP Watcher](https://wiki.seeedstudio.com/getting_started_with_watcher/) | Give OpenClaw Ears and a Voice |
 
