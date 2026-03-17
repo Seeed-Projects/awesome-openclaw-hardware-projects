@@ -79,7 +79,7 @@ Computer vision, AI cameras, and visual perception systems.
 | Project Name | Related Hardware | Description |
 |---|---|---|
 | [reCamera Intellisense](05-vision-cameras/recamera-intellisense.md) | • [reCamera (v2, pending relaese)](https://wiki.seeedstudio.com) | A skill for multi-camera capable intelligent object detection, media capturing, GPIO controls. |
-| [openclaw with reCamera Gimbal](05-vision-cameras/openclaw-recamera-gimbal.md) | • [reCamera Gimbal](https://wiki.seeedstudio.com/recamera_gimbal_getting_started/) | todo. @wuxinrui |
+| [openclaw with reCamera Gimbal](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/blob/main/README.md) | • [reCamera Gimbal](https://wiki.seeedstudio.com/recamera_gimbal_getting_started/) | todo. @wuxinrui |
 | [Control reCamera v2 with OpenClaw](05-vision-cameras/control-recamera-v2.md) | • [reCamera](https://wiki.seeedstudio.com/recamera_getting_started/) | todo. @daqing |
 
 </details>
