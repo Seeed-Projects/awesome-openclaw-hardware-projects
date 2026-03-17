@@ -11,8 +11,13 @@
 ## Overview
 
 **reSpeaker-claw** turns a reSpeaker XVF3800 based device into a voice-native OpenClaw-style agent. It captures microphone input over I2S, performs on-device VAD, sends utterances to STT services, runs an embedded agent loop, and plays TTS responses back through an I2S speaker path.
-
 Compared with Linux-centric voice assistant stacks, this project keeps the system small and embedded-friendly: pure C firmware, ESP32-S3 target, USB power, and persistent local storage for memory and automation data.
+
+![reSpeaker-claw Demo](https://github.com/Seeed-Projects/reSpeaker-claw/raw/main/assets/respeaker-claw.png)
+
+Watch the latest demo videos:
+- [X / reSpeaker-claw demo](https://x.com/seeedstudio/status/2032358691299869022)
+- [LinkedIn / reSpeaker-claw demo](https://www.linkedin.com/feed/update/urn:li:activity:7438123175634173952)
 
 ## Highlights
 
