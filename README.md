@@ -43,7 +43,7 @@ Lightweight embedded implementations for MCU platforms, and hardware boards prov
 | Project Name | Related Hardware | Description |
 |---|---|---|
 | [mimiclaw](https://github.com/memovai/mimiclaw) | • [XIAO ESP32S3](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) | Pocket AI Assistant on a $5 Chip. |
-| [espclaw](02-microcontrollers/espclaw.md) | • [XIAO ESP32C3](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/)<br>• [XIAO ESP32S3](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) | ESP32-based OpenClaw implementation with MQTT channel and more native tools. @wangtianrui |
+| [espclaw](02-microcontrollers/espclaw.md) | • [XIAO ESP32C3](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/)<br>• [XIAO ESP32S3](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) | ESP32-based OpenClaw implementation with MQTT channel and more native tools. |
 | [mimiclaw on XIAO ESP32-S3](https://github.com/luoluoter/mimiclaw) | • [XIAO ESP32S3](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) | mimiclaw ported to Seeed Studio XIAO ESP32S3. |
 
 </details>
@@ -55,7 +55,7 @@ OpenClaw driven by local LLM backends on edge devices.
 
 | Project Name | Related Hardware | Description |
 |---|---|---|
-| [nanobot + reComputer RK + Local LLM](03-local-llm/nanobot-recomputer-rk-local-llm.md) | • [reComputer R1000](https://wiki.seeedstudio.com/reComputer_r1000_intro/) | todo. @jiahao |
+| [nanobot + reComputer RK + Local LLM](03-local-llm/nanobot-recomputer-rk-local-llm.md) | • [reComputer RK Series](https://wiki.seeedstudio.com/object_detection_with_yolov11_on_recomputer_rk/) | A complete guide to installing and using the USB Relay Control and Light Sensor Reader skills with Nanobot on reComputer RK (featuring the RK1826 accelerator) alongside a local LLM. |
 
 </details>
 
@@ -80,8 +80,8 @@ Computer vision, AI cameras, and visual perception systems.
 | Project Name | Related Hardware | Description |
 |---|---|---|
 | [reCamera Intellisense](05-vision-cameras/recamera-intellisense.md) | • [reCamera (v2, pending relaese)](https://wiki.seeedstudio.com) | A skill for multi-camera capable intelligent object detection, media capturing, GPIO controls. |
-| [openclaw with reCamera Gimbal](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/blob/main/README.md) | • [reCamera Gimbal](https://wiki.seeedstudio.com/recamera_gimbal_getting_started/) | todo. @wuxinrui |
-| [Control reCamera v2 with OpenClaw](05-vision-cameras/control-recamera-v2.md) | • [reCamera](https://wiki.seeedstudio.com/recamera_getting_started/) | todo. @daqing |
+| [openclaw with reCamera Gimbal](https://github.com/Seeed-Projects/reCamera_Gimbal-OpenClaw/blob/main/README.md) | • [reCamera Gimbal](https://wiki.seeedstudio.com/recamera_gimbal_getting_started/) | Use OpenClaw to control the motor, speaker, microphone, LED, and camera of the reCamera Gimbal. |
+| [reCamera v2 fleet management with OpenClaw](05-vision-cameras/control-recamera-v2.md) | • [reCamera (v2, pending relaese)](https://wiki.seeedstudio.com) | OpenClaw skill to manage a fleet of reCamera v2 devices, including discovery, configuration and control. |
 
 </details>
 
@@ -92,7 +92,7 @@ OpenClaw interact with smart home protocols, and IoT devices.
 
 | Project Name | Related Hardware | Description |
 |---|---|---|
-| [nanobot + reComputer RK + IoT](06-home-automation-iot/nanobot-recomputer-rk-iot.md) | • [reComputer R Series](https://wiki.seeedstudio.com/recomputer_r/) | todo @jiahao |
+| [nanobot + reComputer RK + IoT](06-home-automation-iot/nanobot-recomputer-rk-iot.md) | • [reComputer RK Series](https://wiki.seeedstudio.com/object_detection_with_yolov11_on_recomputer_rk/) | A complete guide to installing and using the USB Relay Control and Light Sensor Reader skills with Nanobot on reComputer RK (featuring the RK1826 accelerator) alongside a local LLM. |
 
 </details>
 
@@ -104,7 +104,7 @@ Motor control, robot arms, and physical agent systems.
 | Project Name | Related Hardware | Description |
 |---|---|---|
 | [Control SOArm 101 with OpenClaw](07-robotics/control-soarm101.md) | • [SO-ARM101](https://wiki.seeedstudio.com/lerobot_so100m_new/)<br>• [reComputer J Series (Jetson)](https://wiki.seeedstudio.com/reComputer_Jetson_Series_Introduction/) | OpenClaw controlling SOArm 101 robotic arm with Nvidia Jetson. |
-| [Reachy Mini](07-robotics/reachy-mini.md) | — | todo. @suhe |
+| [Reachy Mini](07-robotics/reachy-mini.md) | • [Reachy Mini](https://huggingface.co/reachy-mini) | A cute desktop claw — sub-second pure local voice AI desktop assistant |
 
 </details>
 
@@ -115,7 +115,7 @@ E-ink screens, LCD displays, and HMI devices.
 
 | Project Name | Related Hardware | Description |
 |---|---|---|
-| [OpenClaw with e-ink Displays](08-displays-hmi/openclaw-eink-displays.md) | • [SenseCAP Indicator](https://wiki.seeedstudio.com/Sensor/SenseCAP/SenseCAP_Indicator/Get_started_with_SenseCAP_Indicator/)<br>• [reTerminal DM](https://wiki.seeedstudio.com/reterminal-dm/) | Give e-ink displays the most powerful content generation engine - OpenClaw. |
+| [OpenClaw with e-ink Displays](08-displays-hmi/openclaw-eink-displays.md) | • [reTerminal E series](https://wiki.seeedstudio.com/reterminal_e10xx_main_page/)<br>• [ePaper Driver Boards](https://wiki.seeedstudio.com/xiao_epaper_display_board_overview/) | Give e-ink displays the most powerful content generation engine - OpenClaw. |
 
 </details>
 

@@ -2,7 +2,6 @@
 
 > Give e-ink displays the most powerful content generation engine - OpenClaw.
 
-- **Status:** Placeholder
 
 ## 1. Overview
 While SenseCraft HMI provides numerous templates, they often lack the flexibility required for dynamic content—such as live data charts, daily story updates, or frequently changing image galleries.
@@ -17,6 +16,8 @@ This skill is available via ClawHub.
 Security Note: Due to safety constraints, the skill does not include the reverse proxy tool. Users must install and configure it manually. A detailed Wiki guide will be released soon.
 
 Future Consideration: Native support for reverse proxying within the HMI platform would significantly streamline this workflow.
+
+The source of the skill is available [in this github repo](https://github.com/Seeed-Projects/SenseCraft-HMI-Gen) , feel free to make it better.
 
 ## 3. Usage Instructions
 
@@ -35,7 +36,27 @@ Requirements:
 3.Generate 24 different stories daily to ensure variety upon refresh."
 ```
 
-Configure the settings in the pop-up window. Direct OpenClaw to finalize the page, then preview and iterate on the design until it meets your requirements.
+Configure the settings in the pop-up window. 
+<img width="2502" height="1451" alt="image" src="https://github.com/user-attachments/assets/9edf3084-ec91-4cdc-8352-6b8c1bdcc9b7" />
+<img width="2488" height="1637" alt="image" src="https://github.com/user-attachments/assets/e5d9d777-0f61-4d7f-ae62-d1396ee0bbc8" />
+
+
+Direct OpenClaw to finalize the page, then preview and iterate on the design until it meets your requirements.
+
+**Example 1 - Tech Daily**
+
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/93b75357-54b0-4871-8abf-8c41c0da6d80" />
+
+**Example 2 - OSS Stories**
+
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/711101b9-2594-4e69-9483-c325ad739d00" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/1fa054a0-b3fe-4ab3-aef1-9355e80faf75" />
+
+
+**Real Device Demo**
+
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/6168669f-5cd2-4b30-9c9a-23904e48ddc1" />
+
 
 ### Step 2: Set Up the Reverse Proxy
 If you are unfamiliar with reverse proxying, follow these steps for a basic deployment (Note: The token is your primary security measure).
@@ -75,10 +96,10 @@ http://frp.freefrp.net:xxxxx/?token=yyyyyyyy
 Deploy the configuration to your device.
 
 ### 4. Security Considerations
-For users with IT experience, using the HTTP mode for FRP is recommended. This adds a layer of security beyond the token but requires a personal domain and DNS configuration. Refer to the Free FRP Documentation for more details.
+For users with IT experience, using the HTTP mode for FRP is recommended. This adds a layer of security beyond the token but requires a personal domain and DNS configuration. Refer to the FRP Documentation for more details.
 
 ### 5. Next Steps
-Now that the basic pipeline is functional, you can train OpenClaw for more complex tasks:
+Now that the basic pipeline is functional, you can train your OpenClaw for more complex tasks:
 
 Visual Content: Integrate Text-to-Image skills (e.g., Nano Banana Pro) to generate pages with custom AI-generated artwork.
 
