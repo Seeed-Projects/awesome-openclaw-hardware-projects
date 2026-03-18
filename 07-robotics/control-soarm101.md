@@ -351,7 +351,7 @@ In the OpenClaw WebUI, enter robot control instructions. OpenClaw will parse you
 
 Watch the demo video on YouTube:
 
-> GitHub does not support inline YouTube playback in Markdown. Click the preview image below to open the demo video on YouTube.
+> Click the preview image below to open the demo video on YouTube.
 
 [![Control SoArm Pick Up by OpenClaw on Jetson Thor](./assets/vd.gif)](https://www.youtube.com/watch?v=T_uh1N8Fxe4)
 
