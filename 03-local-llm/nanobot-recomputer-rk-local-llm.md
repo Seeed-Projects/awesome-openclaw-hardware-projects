@@ -37,14 +37,15 @@ A complete guide to installing and using the USB Relay Control and Light Sensor 
 # Install uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
+![](./assets/imgs/uv.png)
 
 ### Step 2: Install nanobot
 
 ```bash
 # Install nanobot
-uv tool install nanobot-ai
+    uv tool install nanobot-ai
 ```
-
+![](./assets/imgs/nanobot.png)
 ### Step 3: Configure nanobot
 
 Use command below to open nanobot `config.json`
@@ -83,7 +84,7 @@ Use command below to start nanobot:
 nanobot gateway
 nanobot agent
 ```
-
+![](./assets/imgs/agent.png)
 ### Install clawhub
 
 You can use the following content in the chat box to instal clawhub:
@@ -124,6 +125,10 @@ darkness (below 100 lux) and turns it off when it's bright (above 500 lux).
 
 ---
 
+## Result 
+You can see the process of the Qwen model running locally and the results of nanobot's execution.
+
+![](./assets/imgs/result.png)
 
 ---
 
