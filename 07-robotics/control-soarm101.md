@@ -351,7 +351,9 @@ In the OpenClaw WebUI, enter robot control instructions. OpenClaw will parse you
 
 Watch the demo video on YouTube:
 
-- [Control SoArm Pick Up by OpenClaw on Jetson Thor](https://www.youtube.com/watch?v=T_uh1N8Fxe4)
+[![Control SoArm Pick Up by OpenClaw on Jetson Thor](https://img.youtube.com/vi/T_uh1N8Fxe4/hqdefault.jpg)](https://www.youtube.com/watch?v=T_uh1N8Fxe4)
+
+- If the thumbnail does not load in some preview environments, open the direct video link: [YouTube demo](https://www.youtube.com/watch?v=T_uh1N8Fxe4)
 
 ## References
 
