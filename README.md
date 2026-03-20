@@ -104,7 +104,7 @@ Motor control, robot arms, and physical agent systems.
 | Project Name | Related Hardware | Description |
 |---|---|---|
 | [Control SOArm 101 with OpenClaw](07-robotics/control-soarm101.md) | • [SO-ARM101](https://wiki.seeedstudio.com/lerobot_so100m_new/)<br>• [reComputer J Series (Jetson)](https://wiki.seeedstudio.com/reComputer_Jetson_Series_Introduction/) | OpenClaw controlling SOArm 101 robotic arm with Nvidia Jetson. |
-| [Reachy Mini](07-robotics/reachy-mini.md) | • [Reachy Mini](https://huggingface.co/reachy-mini) | A cute desktop claw — sub-second pure local voice AI desktop assistant |
+| [Reachy Mini](07-robotics/reachy-mini.md) | • [Reachy Mini](https://huggingface.co/reachy-mini) | A fully local desktop AI robot with sub-second voice interaction, emotional motion, face tracking, and OpenClaw-powered workflows. |
 
 </details>
 
